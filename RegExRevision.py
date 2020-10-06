@@ -14,12 +14,12 @@ import re
 
 
 #Task-3: to detect the matching string
-#text = "I met Batman"
-#obj=re.compile(r"Bat(ball|khan|jan|mann)")
-#if(obj.search(text)):
-#    print("Batman")
-#else:
-#    print("Not Found")
+text = "I met Batman"
+obj=re.compile(r"Bat(ball|khan|jan|mann)")
+if(obj.search(text)):
+   print("Batman")
+else:
+   print("Not Found")
 
 
 #Task-4: use of ? symbol(means 0 or 1 time)
